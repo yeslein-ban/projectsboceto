@@ -1,0 +1,71 @@
+.body {
+  background-image: url("snoopy.jpeg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+
+.message {
+  background-color: #C7F2A7;
+  color: #849483;
+  padding: 25px 15px;
+  align-content: center;
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  margin: 100px 55px;
+}
+
+.button {
+  background-color: #948392;
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 8px;
+  alignment-baseline: center;
+}
+
+.header {
+  display: flex;
+  background-color: #948392;
+  padding: 15px 20px;
+  margin: 0 auto;
+  color: #CACC90;
+  font-style: italic;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+  background-color: white;
+}
+
+.carousel-item {
+  display: block;
+  text-align: center;
+  background-color: #A7CECB;
+  width: 500px;
+  height: 400px;
+  margin: 5px;
+  color: #2E2C2F;
+  font-style: italic;
+  font-size: auto;
+}
+
+.img {
+  width: 120px;
+  height: 80px;
+}
+
+.footer {
+  display: flex;
+  background-image: url(bglotus.png);
+  background-size: cover;
+  padding: 18px;
+  color: #CACC90;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-items: center;
+}
